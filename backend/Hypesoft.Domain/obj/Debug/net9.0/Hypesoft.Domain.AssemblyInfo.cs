@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hypesoft.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+748277e580b8ce8de9645f98f1958be5ea8db48e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdc8ecddf9086aa2488e4319dc943d55f814e5e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hypesoft.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hypesoft.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
