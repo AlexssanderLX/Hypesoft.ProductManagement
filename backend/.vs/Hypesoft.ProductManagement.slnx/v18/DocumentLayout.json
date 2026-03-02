@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.application\\dtos\\lowstockproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|solutionrelative:hypesoft.application\\dtos\\lowstockproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.application\\dtos\\productsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|solutionrelative:hypesoft.application\\dtos\\productsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|solutionrelative:hypesoft.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|solutionrelative:hypesoft.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.application\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|solutionrelative:hypesoft.application\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.application\\handlers\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|solutionrelative:hypesoft.application\\handlers\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.application\\handlers\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|solutionrelative:hypesoft.application\\handlers\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.application\\validators\\createcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|solutionrelative:hypesoft.application\\validators\\createcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.domain\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|solutionrelative:hypesoft.domain\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.application\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|solutionrelative:hypesoft.application\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|solutionrelative:hypesoft.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +51,20 @@
       "RelativeMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|solutionrelative:hypesoft.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|solutionrelative:hypesoft.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.domain\\valueobjects\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|solutionrelative:hypesoft.domain\\valueobjects\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.application\\hypesoft.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28D96859-6014-D725-5B6A-107993D70F91}|Hypesoft.Application\\Hypesoft.Application.csproj|solutionrelative:hypesoft.application\\hypesoft.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|solutionrelative:hypesoft.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|c:\\users\\alexssander\\desktop\\programa\u00E7\u00E3o\\hypesoft.productmanagement\\backend\\hypesoft.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D3DF37-A459-D86B-FDCA-81857DB85907}|Hypesoft.Domain\\Hypesoft.Domain.csproj|solutionrelative:hypesoft.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,54 +79,207 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LowStockProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\DTOs\\LowStockProductDto.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Application\\DTOs\\LowStockProductDto.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\DTOs\\LowStockProductDto.cs",
+              "RelativeToolTip": "Hypesoft.Application\\DTOs\\LowStockProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:22:00.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\DTOs\\ProductSummaryDto.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Application\\DTOs\\ProductSummaryDto.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\DTOs\\ProductSummaryDto.cs",
+              "RelativeToolTip": "Hypesoft.Application\\DTOs\\ProductSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:21:08.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Application\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "Hypesoft.Application\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:20:41.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Application\\DTOs\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "Hypesoft.Application\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:20:21.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateCategoryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Handlers\\CreateCategoryHandler.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Application\\Handlers\\CreateCategoryHandler.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Handlers\\CreateCategoryHandler.cs",
+              "RelativeToolTip": "Hypesoft.Application\\Handlers\\CreateCategoryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T12:26:23.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateProductHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Handlers\\CreateProductHandler.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Application\\Handlers\\CreateProductHandler.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Handlers\\CreateProductHandler.cs",
+              "RelativeToolTip": "Hypesoft.Application\\Handlers\\CreateProductHandler.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T04:02:43.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateCategoryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Commands\\CreateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Application\\Commands\\CreateCategoryCommand.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Commands\\CreateCategoryCommand.cs",
+              "RelativeToolTip": "Hypesoft.Application\\Commands\\CreateCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T12:25:49.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCategoryValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Validators\\CreateCategoryValidator.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Application\\Validators\\CreateCategoryValidator.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Validators\\CreateCategoryValidator.cs",
+              "RelativeToolTip": "Hypesoft.Application\\Validators\\CreateCategoryValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T12:27:00.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Domain\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "Hypesoft.Domain\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T04:12:33.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Commands\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Application\\Commands\\CreateProductCommand.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Commands\\CreateProductCommand.cs",
+              "RelativeToolTip": "Hypesoft.Application\\Commands\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T03:58:33.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Hypesoft.Domain\\Entities\\Category.cs",
               "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Entities\\Category.cs",
               "RelativeToolTip": "Hypesoft.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwCUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T11:16:38.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Stock.cs",
-              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Entities\\Stock.cs",
-              "RelativeDocumentMoniker": "Hypesoft.Domain\\Entities\\Stock.cs",
-              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Entities\\Stock.cs",
-              "RelativeToolTip": "Hypesoft.Domain\\Entities\\Stock.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T10:34:20.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DomainException.cs",
-              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Exceptions\\DomainException.cs",
-              "RelativeDocumentMoniker": "Hypesoft.Domain\\Exceptions\\DomainException.cs",
-              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Exceptions\\DomainException.cs",
-              "RelativeToolTip": "Hypesoft.Domain\\Exceptions\\DomainException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T10:19:23.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Hypesoft.Domain\\Entities\\Product.cs",
               "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Entities\\Product.cs",
               "RelativeToolTip": "Hypesoft.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAIwG0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAG4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T10:18:39.956Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\ValueObjects\\Stock.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Domain\\ValueObjects\\Stock.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\ValueObjects\\Stock.cs",
+              "RelativeToolTip": "Hypesoft.Domain\\ValueObjects\\Stock.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T10:34:20.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Hypesoft.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Hypesoft.Application.csproj",
+              "RelativeDocumentMoniker": "Hypesoft.Application\\Hypesoft.Application.csproj",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Application\\Hypesoft.Application.csproj",
+              "RelativeToolTip": "Hypesoft.Application\\Hypesoft.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-02T04:44:53.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Domain\\Exceptions\\DomainException.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "Hypesoft.Domain\\Exceptions\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T10:19:23.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Hypesoft.Domain\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Alexssander\\Desktop\\Programa\u00E7\u00E3o\\Hypesoft.ProductManagement\\backend\\Hypesoft.Domain\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "Hypesoft.Domain\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T04:06:55.233Z"
             }
           ]
         },

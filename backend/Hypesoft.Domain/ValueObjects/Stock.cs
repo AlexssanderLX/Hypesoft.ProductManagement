@@ -1,7 +1,7 @@
 ﻿using Hypesoft.Domain.Exceptions;
 using System;
 
-namespace Hypesoft.Domain.Entities
+namespace Hypesoft.Domain.ValueObjects
 {
     public class Stock
     {

@@ -1,5 +1,6 @@
 ﻿using System;
 using Hypesoft.Domain.Exceptions;
+using Hypesoft.Domain.ValueObjects;
 
 namespace Hypesoft.Domain.Entities
 {

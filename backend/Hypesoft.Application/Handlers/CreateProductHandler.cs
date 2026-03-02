@@ -7,8 +7,7 @@ using Hypesoft.Application.Commands;
 
 namespace Hypesoft.Application.Handlers
 {
-    public class CreateProductHandler
-        : IRequestHandler<CreateProductCommand, Guid>
+    public class CreateProductHandler : IRequestHandler<CreateProductCommand, Guid>
     {
         private readonly IProductRepository _productRepository;
         private readonly ICategoryRepository _categoryRepository;
@@ -25,7 +24,7 @@ namespace Hypesoft.Application.Handlers
             CreateProductCommand request,
             CancellationToken cancellationToken)
         {
-            // 1 - Buscar categoria
+            
             var category = await _categoryRepository
                 .GetByIdAsync(request.CategoryId);
 
@@ -35,14 +34,14 @@ namespace Hypesoft.Application.Handlers
             if (!category.IsActive)
                 throw new DomainException("Category is inactive.");
 
-            // 2 - Verificar duplicidade
+            
             var existingProduct = await _productRepository
                 .GetByNameAsync(request.Name);
 
             if (existingProduct is not null)
                 throw new DomainException("Product name already exists.");
 
-            // 3 - Criar produto
+            // Domain protege invariantes
             var product = new Product(
                 request.Name,
                 request.Description,
@@ -50,9 +49,9 @@ namespace Hypesoft.Application.Handlers
                 request.CategoryId,
                 request.InitialStock);
 
-            // 4 - Persistir
+            //Persiste
             await _productRepository.AddAsync(product);
-
+            // Retorna id
             return product.Id;
         }
     }
