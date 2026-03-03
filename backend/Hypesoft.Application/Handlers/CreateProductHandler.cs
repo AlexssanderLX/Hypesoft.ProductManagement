@@ -4,10 +4,11 @@ using Hypesoft.Domain.Repositories;
 using Hypesoft.Domain.Exceptions;
 using MediatR;
 using Hypesoft.Application.Commands;
+using Hypesoft.Application.DTOs;
 
 namespace Hypesoft.Application.Handlers
 {
-    public class CreateProductHandler : IRequestHandler<CreateProductCommand, Guid>
+    public class CreateProductHandler : IRequestHandler<CreateProductCommand, ProductDto>
     {
         private readonly IProductRepository _productRepository;
         private readonly ICategoryRepository _categoryRepository;
@@ -20,7 +21,7 @@ namespace Hypesoft.Application.Handlers
             _categoryRepository = categoryRepository;
         }
 
-        public async Task<Guid> Handle(
+        public async Task<ProductDto> Handle(
             CreateProductCommand request,
             CancellationToken cancellationToken)
         {
@@ -51,8 +52,16 @@ namespace Hypesoft.Application.Handlers
 
             //Persiste
             await _productRepository.AddAsync(product);
-            // Retorna id
-            return product.Id;
+            // Retorna DTO
+            return new ProductDto
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description,
+                Price = product.Price,
+                CategoryId = product.CategoryId,
+                StockQuantity = product.Stock.Quantity
+            };
         }
     }
 }

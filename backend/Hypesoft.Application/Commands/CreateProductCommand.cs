@@ -5,10 +5,11 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using MediatR;
+using Hypesoft.Application.DTOs;
 
 namespace Hypesoft.Application.Commands
 {
-    public class CreateProductCommand : IRequest<Guid>
+    public class CreateProductCommand : IRequest<ProductDto>
     {
         public string Name { get; set; }
         public string Description { get; set; }
