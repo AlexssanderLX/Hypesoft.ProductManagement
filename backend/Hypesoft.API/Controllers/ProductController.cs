@@ -1,6 +1,7 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
+﻿using Hypesoft.Application.Commands.Products;
 using Hypesoft.Application.Queries.Products;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Hypesoft.API.Controllers;
 
@@ -13,6 +14,20 @@ public class ProductsController : ControllerBase
     public ProductsController(IMediator mediator)
     {
         _mediator = mediator;
+    }
+
+    // Metodo POST create
+    [HttpPost]
+    public async Task<IActionResult> Create(
+    [FromBody] CreateProductCommand command)
+    {
+        var result = await _mediator.Send(command);
+
+        return CreatedAtAction(
+            nameof(GetById),
+            new { id = result.Id },
+            result
+        );
     }
 
     [HttpGet]

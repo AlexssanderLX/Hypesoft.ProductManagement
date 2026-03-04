@@ -1,4 +1,3 @@
-using Hypesoft.Application.Commands;
 using Hypesoft.Application.Validators;
 using Hypesoft.Domain.Repositories;
 using Hypesoft.Infrastructure.Configurations;
@@ -6,6 +5,7 @@ using Hypesoft.Infrastructure.Data;
 using Hypesoft.Infrastructure.Repositories;
 using MediatR;
 using FluentValidation;
+using Hypesoft.Application.Commands.Products;
 
 var builder = WebApplication.CreateBuilder(args);
 

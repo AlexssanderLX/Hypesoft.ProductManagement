@@ -1,6 +1,5 @@
 ﻿using MediatR;
 using Hypesoft.Application.Commands;
-using Hypesoft.Application.Handlers;
 using Hypesoft.Domain.Entities;
 using Hypesoft.Domain.Repositories;
 using Hypesoft.Application.DTOs;

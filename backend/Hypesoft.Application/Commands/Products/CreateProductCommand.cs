@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Hypesoft.Application.DTOs;
 
-namespace Hypesoft.Application.Commands
+namespace Hypesoft.Application.Commands.Products
 {
     public class CreateProductCommand : IRequest<ProductDto>
     {
@@ -15,7 +15,7 @@ namespace Hypesoft.Application.Commands
         public string Description { get; set; }
         public decimal Price { get; set; }
         public Guid CategoryId  { get; set; }
-        public  int InitialStock { get; set; }
+        public  int StockQuantity { get; set; }
 
     }
 }

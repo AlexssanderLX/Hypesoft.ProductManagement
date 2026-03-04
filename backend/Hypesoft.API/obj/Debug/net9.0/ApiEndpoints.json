@@ -57,6 +57,22 @@
   },
   {
     "ContainingType": "Hypesoft.API.Controllers.ProductsController",
+    "Method": "Create",
+    "RelativePath": "api/Products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Hypesoft.Application.Commands.Products.CreateProductCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.Controllers.ProductsController",
     "Method": "GetAll",
     "RelativePath": "api/Products",
     "HttpMethod": "GET",

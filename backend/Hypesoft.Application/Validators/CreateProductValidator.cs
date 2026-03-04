@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using Hypesoft.Application.Commands;
+using Hypesoft.Application.Commands.Products;
 
 namespace Hypesoft.Application.Validators
 {
@@ -23,7 +23,7 @@ namespace Hypesoft.Application.Validators
             RuleFor(x => x.CategoryId)
                 .NotEqual(Guid.Empty);
 
-            RuleFor(x => x.InitialStock)
+            RuleFor(x => x.StockQuantity)
                 .GreaterThanOrEqualTo(0);
         }
     }
