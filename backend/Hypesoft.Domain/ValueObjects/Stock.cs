@@ -24,7 +24,13 @@ namespace Hypesoft.Domain.ValueObjects
 
             Quantity += amount;
         }
+        public void UpdateQuantity(int quantity)
+        {
+            if (quantity < 0)
+                throw new ArgumentException("Stock quantity cannot be negative.");
 
+            Quantity = quantity;
+        }
         public void Decrease(int amount)
         {
             if (amount <= 0)

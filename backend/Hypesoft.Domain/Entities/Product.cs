@@ -53,6 +53,13 @@ namespace Hypesoft.Domain.Entities
             UpdateTimestamp();
         }
 
+        public void UpdateStock(int quantity)
+        {
+            if (quantity < 0)
+                throw new ArgumentException("Stock quantity cannot be negative.");
+
+            Stock.UpdateQuantity(quantity);
+        }
         public void ChangePrice(decimal newPrice)
         {
             EnsureIsActive();

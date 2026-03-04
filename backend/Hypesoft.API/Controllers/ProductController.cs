@@ -76,4 +76,31 @@ public class ProductsController : ControllerBase
         return Ok(result);
     }
 
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete(Guid id)
+    {
+        var result = await _mediator.Send(new DeleteProductCommand { Id = id });
+
+        if (!result)
+            return NotFound();
+
+        return NoContent();
+    }
+    [HttpPatch("{id}/stock")]
+    public async Task<IActionResult> UpdateStock(
+    Guid id,
+    [FromBody] int quantity)
+    {
+        var result = await _mediator.Send(new UpdateStockCommand
+        {
+            ProductId = id,
+            Quantity = quantity
+        });
+
+        if (!result)
+            return NotFound();
+
+        return NoContent();
+    }
 }
