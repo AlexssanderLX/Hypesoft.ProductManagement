@@ -111,13 +111,24 @@ public class MongoProductRepository : IProductRepository
     }
     public async Task<IEnumerable<Product>> SearchByNameAsync(string name)
     {
-        // busca parcial, case-insensitive
+        
         var filter = Builders<ProductDocument>.Filter.Regex(
             x => x.Name,
             new MongoDB.Bson.BsonRegularExpression(name, "i")
         );
 
         var documents = await _collection.Find(filter).ToListAsync();
+
+        return documents.Select(MapToEntity);
+    }
+    public async Task<IEnumerable<Product>> GetByCategoryAsync(Guid categoryId)
+    {
+        var filter = Builders<ProductDocument>.Filter
+            .Eq(p => p.CategoryId, categoryId.ToString());
+
+        var documents = await _collection
+            .Find(filter)
+            .ToListAsync();
 
         return documents.Select(MapToEntity);
     }

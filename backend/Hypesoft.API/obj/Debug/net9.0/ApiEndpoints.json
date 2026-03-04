@@ -84,6 +84,22 @@
   },
   {
     "ContainingType": "Hypesoft.API.Controllers.ProductsController",
+    "Method": "GetByCategory",
+    "RelativePath": "api/Products/category/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.Controllers.ProductsController",
     "Method": "Search",
     "RelativePath": "api/Products/search",
     "HttpMethod": "GET",

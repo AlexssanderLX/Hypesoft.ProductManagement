@@ -16,6 +16,7 @@ namespace Hypesoft.Domain.Repositories
         Task<IEnumerable<Product>> SearchByNameAsync(string name);
         Task<IEnumerable<Product>> GetAllAsync(int page, int pageSize);
         Task DeleteAsync(Guid id);
+        Task<IEnumerable<Product>> GetByCategoryAsync(Guid categoryId);
         Task<(IEnumerable<Product> Items, int TotalCount)>GetPagedAsync(int page, int pageSize);
     }
 }

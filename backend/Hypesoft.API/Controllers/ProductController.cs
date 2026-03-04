@@ -42,4 +42,14 @@ public class ProductsController : ControllerBase
         var result = await _mediator.Send(new SearchProductsByNameQuery(name));
         return Ok(result);
     }
+
+    [HttpGet("category/{categoryId}")]
+    public async Task<IActionResult> GetByCategory(Guid categoryId)
+    {
+        var result = await _mediator.Send(
+            new GetProductsByCategoryQuery(categoryId));
+
+        return Ok(result);
+    }
+
 }
