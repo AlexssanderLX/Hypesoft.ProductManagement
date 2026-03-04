@@ -147,5 +147,17 @@ public class MongoProductRepository : IProductRepository
             .SetValue(product, Guid.Parse(document.Id));
 
         return product;
+   
+    }
+    public async Task<IEnumerable<Product>> GetLowStockAsync()
+    {
+        var filter = Builders<ProductDocument>.Filter
+            .Lt(p => p.StockQuantity, 10);
+
+        var documents = await _collection
+            .Find(filter)
+            .ToListAsync();
+
+        return documents.Select(MapToEntity);
     }
 }

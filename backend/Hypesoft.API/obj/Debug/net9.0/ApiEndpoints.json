@@ -46,6 +46,16 @@
     ]
   },
   {
+    "ContainingType": "Hypesoft.API.Controllers.DashboardController",
+    "Method": "GetSummary",
+    "RelativePath": "api/Dashboard/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Hypesoft.API.Controllers.ProductsController",
     "Method": "GetAll",
     "RelativePath": "api/Products",
@@ -96,6 +106,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.Controllers.ProductsController",
+    "Method": "GetLowStock",
+    "RelativePath": "api/Products/low-stock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

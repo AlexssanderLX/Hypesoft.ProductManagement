@@ -52,4 +52,13 @@ public class ProductsController : ControllerBase
         return Ok(result);
     }
 
+    [HttpGet("low-stock")]
+    public async Task<IActionResult> GetLowStock()
+    {
+        var result = await _mediator.Send(
+            new GetLowStockProductsQuery());
+
+        return Ok(result);
+    }
+
 }
