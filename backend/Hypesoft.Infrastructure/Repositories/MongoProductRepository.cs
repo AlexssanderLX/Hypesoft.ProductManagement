@@ -65,6 +65,21 @@ public class MongoProductRepository : IProductRepository
 
         return documents.Select(MapToEntity);
     }
+    public async Task<(IEnumerable<Product> Items, int TotalCount)>
+    GetPagedAsync(int page, int pageSize)
+    {
+        var totalCount = await _collection.CountDocumentsAsync(_ => true);
+
+        var documents = await _collection
+            .Find(_ => true)
+            .Skip((page - 1) * pageSize)
+            .Limit(pageSize)
+            .ToListAsync();
+
+        var products = documents.Select(MapToEntity);
+
+        return (products, (int)totalCount);
+    }
     public async Task<Product?> GetByNameAsync(string name)
     {
         var document = await _collection
@@ -94,7 +109,18 @@ public class MongoProductRepository : IProductRepository
             document
         );
     }
+    public async Task<IEnumerable<Product>> SearchByNameAsync(string name)
+    {
+        // busca parcial, case-insensitive
+        var filter = Builders<ProductDocument>.Filter.Regex(
+            x => x.Name,
+            new MongoDB.Bson.BsonRegularExpression(name, "i")
+        );
 
+        var documents = await _collection.Find(filter).ToListAsync();
+
+        return documents.Select(MapToEntity);
+    }
     private Product MapToEntity(ProductDocument document)
     {
         var product = new Product(

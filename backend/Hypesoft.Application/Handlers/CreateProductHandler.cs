@@ -37,7 +37,7 @@ namespace Hypesoft.Application.Handlers
 
             
             var existingProduct = await _productRepository
-                .GetByNameAsync(request.Name);
+                .SearchByNameAsync(request.Name);
 
             if (existingProduct is not null)
                 throw new DomainException("Product name already exists.");
