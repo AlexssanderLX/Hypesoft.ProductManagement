@@ -22,7 +22,15 @@ public class GetDashboardSummaryQueryHandler
 
         var totalProducts = products.Count();
         var totalStockValue = products.Sum(p => p.Price * p.Stock.Quantity);
-        var lowStockProducts = products.Count(p => p.Stock.Quantity < 10);
+        var lowStockProducts = products
+    .Where(p => p.Stock.Quantity < 10)
+    .Select(p => new LowStockProductDto
+    {
+        Id = p.Id,
+        Name = p.Name,
+        Stock = p.Stock.Quantity
+    })
+    .ToList(); ;
 
         var productsByCategory = products
             .GroupBy(p => p.CategoryId.ToString())
