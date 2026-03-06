@@ -1,50 +1,203 @@
 # Hypesoft Product Management
 
-Technical challenge developed for Hypesoft.
+Product management system developed as a technical challenge for Hypesoft.
+The project implements a fullstack architecture with a structured backend following Clean Architecture principles and a React + TypeScript frontend.
 
-## Overview
+The system allows management of products, categories, stock quantities and dashboard summaries through a RESTful API.
 
-Full-stack Product Management System built with modern architecture principles and security best practices.
+---
+
+## Features
+
+* Product CRUD (create, read, update, delete)
+* Category management
+* Product search
+* Stock quantity control
+* Dashboard summary
+* REST API integration between frontend and backend
+* Containerized backend using Docker
+
+---
+
+## Architecture
+
+The backend follows a layered architecture inspired by Clean Architecture principles, separating responsibilities across different projects.
+
+```
+Domain
+Application
+Infrastructure
+API
+```
+
+### Domain
+
+Contains the core business entities and domain rules.
+
+### Application
+
+Contains commands, handlers and application services responsible for orchestrating business operations.
+
+### Infrastructure
+
+Responsible for data persistence, Entity Framework configuration and external services.
+
+### API
+
+Handles HTTP requests, controllers and dependency injection configuration.
+
+---
 
 ## Tech Stack
 
-### Backend
-- .NET 9
-- Clean Architecture + DDD
-- CQRS + MediatR
-- MongoDB
-- FluentValidation
-- AutoMapper
-- Serilog
-- Keycloak (OAuth2 / OpenID Connect)
+Backend
 
-### Frontend
-- Next.js 14 (App Router)
-- React 18
-- TypeScript
-- TailwindCSS
+* .NET
+* ASP.NET Core Web API
+* Entity Framework Core
+* MySQL / SQL database
+* Docker
 
-### Infrastructure
-- Docker + Docker Compose
-- Nginx (Reverse Proxy)
+Frontend
 
-## Security Considerations
+* React
+* Next.js
+* TypeScript
+* TailwindCSS
 
-During dependency auditing (`npm audit`), known advisories were identified affecting:
+Tools
 
-- Next.js 14.x (DoS-related advisories involving Image Optimizer and React Server Components deserialization)
-- `glob` dependency used by ESLint (development-only advisory)
+* Git
+* GitHub
+* Swagger
 
-### Decision
+---
 
-The project intentionally remains on Next.js 14 to comply with the technical challenge requirements.
+## Project Structure
 
-### Production Mitigation Strategy
+```
+backend
+ ├── Hypesoft.API
+ ├── Hypesoft.Application
+ ├── Hypesoft.Domain
+ └── Hypesoft.Infrastructure
 
-In a real production scenario:
+frontend
+ └── React / Next.js application
+```
 
-- Upgrade to the latest secure Next.js LTS version
-- Restrict image optimization configuration
-- Apply rate limiting via Nginx
-- Enforce strict API validation
-- Automate dependency audits in CI pipelines
+---
+
+## Running the Project
+
+### Running with Docker
+
+The backend API can be executed using Docker.
+
+Build the container:
+
+```
+docker build -t hypesoft-product-management .
+```
+
+Run the container:
+
+```
+docker run -p 5000:5000 hypesoft-product-management
+```
+
+---
+
+### Running the Backend Locally
+
+Navigate to the backend directory:
+
+```
+cd backend
+```
+
+Restore dependencies:
+
+```
+dotnet restore
+```
+
+Run the API:
+
+```
+dotnet run
+```
+
+Swagger documentation will be available at:
+
+```
+/swagger
+```
+
+---
+
+### Running the Frontend
+
+Navigate to the frontend directory:
+
+```
+cd frontend
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
+npm run dev
+```
+
+The application will run on:
+
+```
+http://localhost:3000
+```
+
+---
+
+## API Endpoints
+
+Products
+
+```
+GET /api/products
+POST /api/products
+PUT /api/products/{id}
+DELETE /api/products/{id}
+```
+
+Categories
+
+```
+GET /api/categories
+POST /api/categories
+```
+
+Dashboard
+
+```
+GET /api/dashboard/summary
+```
+
+---
+
+## Purpose
+
+This project was developed to demonstrate knowledge in backend architecture, REST API development, frontend integration and containerization using Docker.
+
+---
+
+## Author
+
+Alexssander Ferreira de Almeida
+
+Computer Science student and software developer focused on backend architecture, security and scalable systems.
