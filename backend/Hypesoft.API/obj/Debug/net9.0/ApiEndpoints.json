@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "Hypesoft.API.Controllers.CategoryController",
+    "ContainingType": "Hypesoft.API.Controllers.CategoriesController",
     "Method": "Create",
-    "RelativePath": "api/Category",
+    "RelativePath": "api/categories",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -26,9 +26,9 @@
     ]
   },
   {
-    "ContainingType": "Hypesoft.API.Controllers.CategoryController",
+    "ContainingType": "Hypesoft.API.Controllers.CategoriesController",
     "Method": "GetAll",
-    "RelativePath": "api/Category",
+    "RelativePath": "api/categories",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -44,6 +44,16 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Hypesoft.API.Controllers.DashboardController",
+    "Method": "GetProductsByCategory",
+    "RelativePath": "api/Dashboard/products-by-category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Hypesoft.API.Controllers.DashboardController",
@@ -103,6 +113,27 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hypesoft.API.Controllers.ProductsController",
+    "Method": "Update",
+    "RelativePath": "api/Products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Hypesoft.Application.Commands.Products.UpdateProductCommand",
         "IsRequired": true
       }
     ],

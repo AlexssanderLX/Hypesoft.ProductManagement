@@ -11,6 +11,7 @@ namespace Hypesoft.Domain.Entities
         public string Description { get; private set; }
         public decimal Price { get; private set; }
         public Guid CategoryId { get; private set; }
+        public Category Category { get; private set; }
         public Stock Stock { get; private set; }
         public bool IsActive { get; private set; }
         public DateTime CreatedAt { get; private set; }
@@ -35,13 +36,22 @@ namespace Hypesoft.Domain.Entities
         }
 
         // Proprietary methods product
-        public void Rename(string newName)
+        public void Update(
+    string name,
+    string description,
+    decimal price,
+    Guid categoryId,
+    int stockQuantity)
         {
-            EnsureIsActive();
-            ValidateName(newName);
+            Name = name;
+            Description = description;
+            Price = price;
+            CategoryId = categoryId;
 
-            Name = newName;
-            UpdateTimestamp();
+            if (Stock == null)
+                Stock = new Stock(stockQuantity);
+            else
+                Stock.UpdateQuantity(stockQuantity);
         }
 
         public void ChangeDescription(string newDescription)
@@ -98,7 +108,7 @@ namespace Hypesoft.Domain.Entities
             Stock.Set(quantity);
             UpdateTimestamp();
         }
-
+        
         public void Deactivate()
         {
             IsActive = false;

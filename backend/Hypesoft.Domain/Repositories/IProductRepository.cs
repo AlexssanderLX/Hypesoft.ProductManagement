@@ -19,5 +19,6 @@ namespace Hypesoft.Domain.Repositories
         Task<IEnumerable<Product>> GetByCategoryAsync(Guid categoryId);
         Task<(IEnumerable<Product> Items, int TotalCount)>GetPagedAsync(int page, int pageSize);
         Task<IEnumerable<Product>> GetLowStockAsync();
+        Task<Dictionary<string, int>> GetProductsByCategoryAsync();
     }
 }

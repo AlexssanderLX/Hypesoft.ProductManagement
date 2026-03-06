@@ -16,18 +16,12 @@ public class ProductsController : ControllerBase
         _mediator = mediator;
     }
 
-    // Metodo POST create
     [HttpPost]
-    public async Task<IActionResult> Create(
-    [FromBody] CreateProductCommand command)
+    public async Task<IActionResult> Create([FromBody] CreateProductCommand command)
     {
         var result = await _mediator.Send(command);
 
-        return CreatedAtAction(
-            nameof(GetById),
-            new { id = result.Id },
-            result
-        );
+        return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
     }
 
     [HttpGet]
@@ -35,47 +29,34 @@ public class ProductsController : ControllerBase
         [FromQuery] int page = 1,
         [FromQuery] int pageSize = 10)
     {
-        var result = await _mediator.Send(
-            new GetProductsQuery(page, pageSize));
+        var result = await _mediator.Send(new GetProductsQuery(page, pageSize));
 
         return Ok(result);
     }
+
     [HttpGet("{id}")]
     public async Task<IActionResult> GetById(Guid id)
     {
-        var result = await _mediator.Send(
-            new GetProductByIdQuery(id));
+        var result = await _mediator.Send(new GetProductByIdQuery(id));
+
+        if (result == null)
+            return NotFound();
 
         return Ok(result);
     }
-    [HttpGet("search")]
-    public async Task<IActionResult> Search([FromQuery] string name)
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Update(Guid id, [FromBody] UpdateProductCommand command)
     {
-        if (string.IsNullOrWhiteSpace(name))
-            return BadRequest("name is required");
+        command.Id = id;
 
-        var result = await _mediator.Send(new SearchProductsByNameQuery(name));
-        return Ok(result);
+        var result = await _mediator.Send(command);
+
+        if (!result)
+            return NotFound();
+
+        return NoContent();
     }
-
-    [HttpGet("category/{categoryId}")]
-    public async Task<IActionResult> GetByCategory(Guid categoryId)
-    {
-        var result = await _mediator.Send(
-            new GetProductsByCategoryQuery(categoryId));
-
-        return Ok(result);
-    }
-
-    [HttpGet("low-stock")]
-    public async Task<IActionResult> GetLowStock()
-    {
-        var result = await _mediator.Send(
-            new GetLowStockProductsQuery());
-
-        return Ok(result);
-    }
-
 
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(Guid id)
@@ -87,10 +68,9 @@ public class ProductsController : ControllerBase
 
         return NoContent();
     }
+
     [HttpPatch("{id}/stock")]
-    public async Task<IActionResult> UpdateStock(
-    Guid id,
-    [FromBody] int quantity)
+    public async Task<IActionResult> UpdateStock(Guid id, [FromBody] int quantity)
     {
         var result = await _mediator.Send(new UpdateStockCommand
         {
@@ -102,5 +82,32 @@ public class ProductsController : ControllerBase
             return NotFound();
 
         return NoContent();
+    }
+
+    [HttpGet("search")]
+    public async Task<IActionResult> Search([FromQuery] string name)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+            return BadRequest("name is required");
+
+        var result = await _mediator.Send(new SearchProductsByNameQuery(name));
+
+        return Ok(result);
+    }
+
+    [HttpGet("category/{categoryId}")]
+    public async Task<IActionResult> GetByCategory(Guid categoryId)
+    {
+        var result = await _mediator.Send(new GetProductsByCategoryQuery(categoryId));
+
+        return Ok(result);
+    }
+
+    [HttpGet("low-stock")]
+    public async Task<IActionResult> GetLowStock()
+    {
+        var result = await _mediator.Send(new GetLowStockProductsQuery());
+
+        return Ok(result);
     }
 }

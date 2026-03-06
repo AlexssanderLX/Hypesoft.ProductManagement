@@ -1,38 +1,78 @@
-interface Product {
-  id: string
-  name: string
-  stock: number
-}
+"use client"
 
-export default function ProductsTable({ products }: { products: Product[] }) {
+import { useRouter } from "next/navigation"
+
+export default function ProductsTable({ products }: any) {
+
+
+  const router = useRouter()
   return (
-    <div
-      style={{
-        background: "white",
-        padding: "24px",
-        borderRadius: "12px",
-        boxShadow: "0 4px 12px rgba(0,0,0,0.05)"
-      }}
-    >
-      <h2 style={{ marginBottom: "20px" }}>Low Stock Products</h2>
 
-      <table style={{ width: "100%", borderCollapse: "collapse" }}>
+    <div className="bg-white rounded-xl border shadow-sm p-6">
+
+      <h2 className="text-lg font-semibold mb-6">
+        Low Stock Products
+      </h2>
+
+      <table className="w-full text-sm">
+
         <thead>
-          <tr>
-            <th style={{ textAlign: "left", paddingBottom: "10px" }}>Product</th>
-            <th style={{ textAlign: "left", paddingBottom: "10px" }}>Stock</th>
+
+          <tr className="text-left border-b text-slate-500">
+
+            <th className="pb-3">Product</th>
+            <th className="pb-3">Stock</th>
+
           </tr>
+
         </thead>
 
         <tbody>
-          {products.map((product) => (
-            <tr key={product.id}>
-              <td style={{ padding: "8px 0" }}>{product.name}</td>
-              <td style={{ padding: "8px 0" }}>{product.stock}</td>
-            </tr>
-          ))}
+
+          {products.map((product: any) => {
+
+            const stock = product.stock ?? product.stockQuantity ?? 0
+
+            return (
+
+              <tr
+  key={product.id}
+  onClick={() => router.push(`/products/${product.id}`)}
+  className="cursor-pointer border-b hover:bg-slate-50"
+>
+
+                <td className="py-3 font-medium">
+                  {product.name}
+                </td>
+
+                <td className="py-3">
+
+                  <span
+                    className={
+                      stock < 5
+                        ? "bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full font-semibold"
+                        : stock < 10
+                        ? "bg-yellow-100 text-yellow-600 text-xs px-2 py-1 rounded-full font-semibold"
+                        : "bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full font-semibold"
+                    }
+                  >
+                    {stock}
+                  </span>
+
+                </td>
+
+              </tr>
+
+            )
+
+          })}
+
         </tbody>
+
       </table>
+
     </div>
+
   )
+
 }

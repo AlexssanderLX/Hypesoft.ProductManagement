@@ -1,45 +1,38 @@
-interface Props {
-  totalProducts: number
-  totalStockValue: number
-}
+export default function DashboardCards({
+  totalProducts,
+  totalStockValue
+}: any) {
 
-export default function DashboardCards({ totalProducts, totalStockValue }: Props) {
   return (
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(2, 1fr)",
-        gap: "20px",
-        marginBottom: "30px"
-      }}
-    >
-      <div
-        style={{
-          background: "white",
-          padding: "24px",
-          borderRadius: "12px",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.05)"
-        }}
-      >
-        <h3>Total Products</h3>
-        <p style={{ fontSize: "28px", fontWeight: "bold" }}>
-          {totalProducts}
+
+    <div className="grid md:grid-cols-2 gap-6 mb-8">
+
+      <div className="bg-white border rounded-xl p-6 shadow-sm">
+
+        <p className="text-sm text-slate-500">
+          Total Products
         </p>
+
+        <h2 className="text-3xl font-semibold mt-2">
+          {totalProducts}
+        </h2>
+
       </div>
 
-      <div
-        style={{
-          background: "white",
-          padding: "24px",
-          borderRadius: "12px",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.05)"
-        }}
-      >
-        <h3>Total Stock Value</h3>
-        <p style={{ fontSize: "28px", fontWeight: "bold" }}>
-          ${totalStockValue}
+      <div className="bg-white border rounded-xl p-6 shadow-sm">
+
+        <p className="text-sm text-slate-500">
+          Total Stock Value
         </p>
+
+        <h2 className="text-3xl font-semibold mt-2">
+          ${totalStockValue}
+        </h2>
+
       </div>
+
     </div>
+
   )
+
 }

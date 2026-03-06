@@ -1,21 +1,19 @@
 ﻿using MediatR;
 using Hypesoft.Domain.Repositories;
+using Hypesoft.Application.Commands.Products;
 
-namespace Hypesoft.Application.Commands.Products;
+namespace Hypesoft.Application.Handlers.Product;
 
-public class UpdateStockCommandHandler
-    : IRequestHandler<UpdateStockCommand, bool>
+public class UpdateStockHandler : IRequestHandler<UpdateStockCommand, bool>
 {
     private readonly IProductRepository _repository;
 
-    public UpdateStockCommandHandler(IProductRepository repository)
+    public UpdateStockHandler(IProductRepository repository)
     {
         _repository = repository;
     }
 
-    public async Task<bool> Handle(
-        UpdateStockCommand request,
-        CancellationToken cancellationToken)
+    public async Task<bool> Handle(UpdateStockCommand request, CancellationToken cancellationToken)
     {
         var product = await _repository.GetByIdAsync(request.ProductId);
 

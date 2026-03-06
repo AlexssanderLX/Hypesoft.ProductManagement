@@ -101,7 +101,7 @@ public class MongoProductRepository : IProductRepository
             Description = product.Description,
             Price = product.Price,
             CategoryId = product.CategoryId.ToString(),
-            StockQuantity = product.Stock.Quantity
+            StockQuantity = product.Stock?.Quantity ?? 0
         };
 
         await _collection.ReplaceOneAsync(
@@ -131,6 +131,21 @@ public class MongoProductRepository : IProductRepository
             .ToListAsync();
 
         return documents.Select(MapToEntity);
+    }
+    public async Task<Dictionary<string, int>> GetProductsByCategoryAsync()
+    {
+        var result = await _collection.Aggregate()
+            .Group(
+                p => p.CategoryName,
+                g => new
+                {
+                    Category = g.Key,
+                    Count = g.Count()
+                }
+            )
+            .ToListAsync();
+
+        return result.ToDictionary(x => x.Category, x => x.Count);
     }
     private Product MapToEntity(ProductDocument document)
     {

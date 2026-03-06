@@ -18,6 +18,8 @@ public class ProductDocument
 
     [BsonElement("categoryId")]
     public string CategoryId { get; set; } = string.Empty;
+    [BsonElement("categoryName")]
+    public string CategoryName { get; set; } = string.Empty;
 
     [BsonElement("stockQuantity")]
     public int StockQuantity { get; set; }

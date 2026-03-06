@@ -1,6 +1,7 @@
-﻿using MediatR;
+﻿using Hypesoft.Application.Queries.Dashboard;
+using Hypesoft.Application.Queries.Products;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Hypesoft.Application.Queries.Dashboard;
 
 namespace Hypesoft.API.Controllers;
 
@@ -19,6 +20,14 @@ public class DashboardController : ControllerBase
     public async Task<IActionResult> GetSummary()
     {
         var result = await _mediator.Send(new GetDashboardSummaryQuery());
+
+        return Ok(result);
+    }
+
+    [HttpGet("products-by-category")]
+    public async Task<IActionResult> GetProductsByCategory()
+    {
+        var result = await _mediator.Send(new GetProductsByCategoryChartQuery());
 
         return Ok(result);
     }

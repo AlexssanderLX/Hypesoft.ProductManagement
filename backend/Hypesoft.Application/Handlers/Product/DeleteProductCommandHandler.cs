@@ -1,10 +1,10 @@
 ﻿using MediatR;
+using Hypesoft.Application.Commands.Products;
 using Hypesoft.Domain.Repositories;
 
-namespace Hypesoft.Application.Commands.Products;
+namespace Hypesoft.Application.Handlers.Product;
 
-public class DeleteProductCommandHandler
-    : IRequestHandler<DeleteProductCommand, bool>
+public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand, bool>
 {
     private readonly IProductRepository _repository;
 
@@ -13,9 +13,7 @@ public class DeleteProductCommandHandler
         _repository = repository;
     }
 
-    public async Task<bool> Handle(
-        DeleteProductCommand request,
-        CancellationToken cancellationToken)
+    public async Task<bool> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
     {
         var product = await _repository.GetByIdAsync(request.Id);
 
