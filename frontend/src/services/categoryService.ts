@@ -1,4 +1,4 @@
-const API_URL = "https://localhost:7251/api"
+const API_URL = "http://localhost:5000/api"
 
 import { apiFetch } from "./api"
 

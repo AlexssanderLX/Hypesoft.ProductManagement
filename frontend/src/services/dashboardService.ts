@@ -7,7 +7,7 @@ export async function getDashboardSummary(): Promise<DashboardSummary> {
 export async function getProductsByCategory() {
 
   const res = await fetch(
-    "https://localhost:7251/api/dashboard/products-by-category"
+    "http://localhost:5000/api/dashboard/products-by-category"
   )
 
   if (!res.ok) throw new Error("Failed to fetch chart data")

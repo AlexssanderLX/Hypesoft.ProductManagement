@@ -54,24 +54,42 @@ export default function ProductsPage() {
 
   async function loadProducts() {
 
-    setLoading(true)
+    try {
 
-    const data: any = await getProducts()
+      setLoading(true)
 
-    if (Array.isArray(data)) setProducts(data)
-    else if (data.items) setProducts(data.items)
-    else setProducts([])
+      const data: any = await getProducts()
 
-    setLoading(false)
+      if (Array.isArray(data)) setProducts(data)
+      else if (data?.items) setProducts(data.items)
+      else setProducts([])
+
+    } catch {
+
+      toast.error("Failed to load products")
+
+    } finally {
+
+      setLoading(false)
+
+    }
 
   }
 
   async function loadCategories() {
 
-    const data = await getCategories()
+    try {
 
-    if (Array.isArray(data)) setCategories(data)
-    else setCategories([])
+      const data = await getCategories()
+
+      if (Array.isArray(data)) setCategories(data)
+      else setCategories([])
+
+    } catch {
+
+      toast.error("Failed to load categories")
+
+    }
 
   }
 
@@ -142,7 +160,7 @@ export default function ProductsPage() {
       setStock("")
       setCategoryId("")
 
-      loadProducts()
+      await loadProducts()
 
     } catch {
 
@@ -162,7 +180,7 @@ export default function ProductsPage() {
 
       toast.success("Product deleted")
 
-      loadProducts()
+      await loadProducts()
 
     } catch {
 
@@ -193,26 +211,42 @@ export default function ProductsPage() {
   async function handleSearch() {
 
     if (!search) {
-      loadProducts()
+      await loadProducts()
       return
     }
 
-    const result = await searchProducts(search)
+    try {
 
-    setProducts(result)
+      const result = await searchProducts(search)
+
+      setProducts(result)
+
+    } catch {
+
+      toast.error("Search failed")
+
+    }
 
   }
 
   async function handleFilterCategory() {
 
     if (!filterCategory) {
-      loadProducts()
+      await loadProducts()
       return
     }
 
-    const result = await getProductsByCategory(filterCategory)
+    try {
 
-    setProducts(result)
+      const result = await getProductsByCategory(filterCategory)
+
+      setProducts(result)
+
+    } catch {
+
+      toast.error("Filter failed")
+
+    }
 
   }
 
@@ -233,8 +267,6 @@ export default function ProductsPage() {
           </div>
 
         )}
-
-        {/* FORM */}
 
         <form
           onSubmit={handleSubmit}
@@ -307,8 +339,6 @@ export default function ProductsPage() {
 
         </form>
 
-        {/* FILTERS */}
-
         <div className="flex gap-4 mb-4">
 
           <input
@@ -350,8 +380,6 @@ export default function ProductsPage() {
           </button>
 
         </div>
-
-        {/* TABLE */}
 
         <div className="bg-white rounded-xl border shadow-sm p-6">
 

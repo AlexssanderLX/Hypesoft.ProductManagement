@@ -1,0 +1,784 @@
+2026-03-06 18:42:17.867 -03:00 [INF] Now listening on: http://localhost:7251
+2026-03-06 18:42:17.931 -03:00 [INF] Now listening on: http://localhost:5044
+2026-03-06 18:42:18.055 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-06 18:42:18.058 -03:00 [INF] Hosting environment: Development
+2026-03-06 18:42:18.061 -03:00 [INF] Content root path: C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API
+2026-03-06 18:43:15.132 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:43:15.132 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:43:15.187 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:15.187 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:15.193 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 63.6201ms
+2026-03-06 18:43:15.193 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 63.6238ms
+2026-03-06 18:43:15.200 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:43:15.229 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:15.234 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:43:15.258 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:43:15.266 -03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-03-06 18:43:15.714 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:43:15.742 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 476.8476ms
+2026-03-06 18:43:15.744 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:43:15.746 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:43:15.751 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:15.755 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:43:15.755 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 555.2572ms
+2026-03-06 18:43:15.758 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:43:15.776 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:43:15.779 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 10.5886ms
+2026-03-06 18:43:15.782 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:43:15.784 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 40.4218ms
+2026-03-06 18:43:42.505 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products/081bd280-1373-444d-b57a-9872453ec62c - null null
+2026-03-06 18:43:42.513 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:42.516 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API)'
+2026-03-06 18:43:42.529 -03:00 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:43:42.620 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.ProductDto'.
+2026-03-06 18:43:42.625 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API) in 91.0459ms
+2026-03-06 18:43:42.627 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products/081bd280-1373-444d-b57a-9872453ec62c - null null
+2026-03-06 18:43:42.628 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API)'
+2026-03-06 18:43:42.635 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:42.636 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products/081bd280-1373-444d-b57a-9872453ec62c - 200 null application/json; charset=utf-8 131.4058ms
+2026-03-06 18:43:42.638 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API)'
+2026-03-06 18:43:42.647 -03:00 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:43:42.656 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.ProductDto'.
+2026-03-06 18:43:42.659 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API) in 7.9805ms
+2026-03-06 18:43:42.662 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API)'
+2026-03-06 18:43:42.665 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products/081bd280-1373-444d-b57a-9872453ec62c - 200 null application/json; charset=utf-8 38.2528ms
+2026-03-06 18:43:52.423 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:43:52.423 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:43:52.424 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:43:52.425 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:43:52.431 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:52.438 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:52.447 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:52.454 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:52.457 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 33.7842ms
+2026-03-06 18:43:52.458 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 34.8833ms
+2026-03-06 18:43:52.460 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:43:52.460 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 36.0458ms
+2026-03-06 18:43:52.461 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:43:52.462 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 37.1345ms
+2026-03-06 18:43:52.483 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:52.497 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:52.505 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:52.507 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:52.517 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:43:52.520 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:43:52.532 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:43:52.537 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 12.7449ms
+2026-03-06 18:43:52.539 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:43:52.540 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:52.547 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:52.549 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 88.0057ms
+2026-03-06 18:43:52.552 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:52.556 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:43:52.561 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:43:52.568 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 46.5951ms
+2026-03-06 18:43:52.570 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:43:52.572 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:43:52.573 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:52.578 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:52.580 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 10.9449ms
+2026-03-06 18:43:52.583 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 122.6307ms
+2026-03-06 18:43:52.584 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:52.587 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:52.596 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:43:52.598 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 59.0248ms
+2026-03-06 18:43:52.609 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:43:52.611 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 9.56ms
+2026-03-06 18:43:52.614 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:52.616 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 46.7481ms
+2026-03-06 18:43:55.773 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:43:55.781 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:55.784 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:55.786 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:43:55.794 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:43:55.796 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 6.9553ms
+2026-03-06 18:43:55.798 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:43:55.799 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:55.804 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:55.806 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 33.1752ms
+2026-03-06 18:43:55.808 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:55.816 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:43:55.823 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:43:55.826 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.6878ms
+2026-03-06 18:43:55.828 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:55.830 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 32.3624ms
+2026-03-06 18:43:56.773 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:43:56.776 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:43:56.779 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:56.784 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:56.786 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 13.1931ms
+2026-03-06 18:43:56.788 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 12.2857ms
+2026-03-06 18:43:56.788 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:43:56.807 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:56.809 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:43:56.811 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:43:56.821 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:43:56.824 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 9.0839ms
+2026-03-06 18:43:56.826 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:43:56.827 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:43:56.833 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:56.835 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 46.0293ms
+2026-03-06 18:43:56.836 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:43:56.845 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:43:56.854 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:43:56.857 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 8.022ms
+2026-03-06 18:43:56.859 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:43:56.862 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 35.7377ms
+2026-03-06 18:43:57.584 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:43:57.584 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:43:57.584 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:43:57.585 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:43:57.590 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:57.595 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:57.600 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:57.606 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:57.608 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 24.0373ms
+2026-03-06 18:43:57.609 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 25.4688ms
+2026-03-06 18:43:57.610 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:43:57.611 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:43:57.611 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 26.8603ms
+2026-03-06 18:43:57.613 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 27.9568ms
+2026-03-06 18:43:57.631 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:57.636 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:57.651 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:57.653 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:57.655 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:43:57.659 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:43:57.670 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:43:57.673 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 11.1569ms
+2026-03-06 18:43:57.675 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:43:57.676 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:57.679 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:43:57.682 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:57.684 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 74.3966ms
+2026-03-06 18:43:57.687 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 19.6124ms
+2026-03-06 18:43:57.688 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:43:57.689 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:57.698 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:57.704 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:43:57.706 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:43:57.708 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 97.2687ms
+2026-03-06 18:43:57.710 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:57.720 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:43:57.723 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:43:57.726 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 12.0516ms
+2026-03-06 18:43:57.732 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:43:57.732 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:57.735 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.6404ms
+2026-03-06 18:43:57.737 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 62.2386ms
+2026-03-06 18:43:57.740 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:43:57.748 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 59.9862ms
+2026-03-06 18:44:01.317 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:01.323 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:01.325 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:01.327 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:01.336 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:01.339 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 8.282ms
+2026-03-06 18:44:01.341 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:01.342 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:01.347 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:01.349 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 31.9607ms
+2026-03-06 18:44:01.351 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:01.360 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:01.369 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:01.372 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 8.8846ms
+2026-03-06 18:44:01.376 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:01.378 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 37.2865ms
+2026-03-06 18:44:01.733 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:01.739 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:01.741 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:01.743 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:01.750 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:01.753 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 6.305ms
+2026-03-06 18:44:01.754 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:01.756 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:01.761 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:01.763 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 30.1507ms
+2026-03-06 18:44:01.765 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:01.774 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:01.780 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:01.783 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.5768ms
+2026-03-06 18:44:01.785 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:01.788 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 33.14ms
+2026-03-06 18:44:02.382 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:02.386 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:02.388 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:02.394 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:02.395 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:02.397 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:02.400 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:02.402 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:02.411 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:02.412 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:02.414 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 8.3668ms
+2026-03-06 18:44:02.416 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:02.417 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 7.2834ms
+2026-03-06 18:44:02.418 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:02.420 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:02.425 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:02.428 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:02.433 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:02.436 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 53.4236ms
+2026-03-06 18:44:02.437 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:02.440 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 53.1368ms
+2026-03-06 18:44:02.441 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:02.450 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:02.458 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:02.468 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:02.469 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:02.471 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 8.5281ms
+2026-03-06 18:44:02.474 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 7.5533ms
+2026-03-06 18:44:02.477 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:02.479 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:02.482 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 65.674ms
+2026-03-06 18:44:02.484 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 65.4797ms
+2026-03-06 18:44:03.527 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products/081bd280-1373-444d-b57a-9872453ec62c - null null
+2026-03-06 18:44:03.533 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:03.535 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API)'
+2026-03-06 18:44:03.538 -03:00 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:03.546 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.ProductDto'.
+2026-03-06 18:44:03.549 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API) in 7.5143ms
+2026-03-06 18:44:03.551 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products/081bd280-1373-444d-b57a-9872453ec62c - null null
+2026-03-06 18:44:03.552 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API)'
+2026-03-06 18:44:03.558 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:03.560 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products/081bd280-1373-444d-b57a-9872453ec62c - 200 null application/json; charset=utf-8 33.6719ms
+2026-03-06 18:44:03.562 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API)'
+2026-03-06 18:44:03.571 -03:00 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:03.578 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.ProductDto'.
+2026-03-06 18:44:03.581 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API) in 6.3757ms
+2026-03-06 18:44:03.584 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetById (Hypesoft.API)'
+2026-03-06 18:44:03.587 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products/081bd280-1373-444d-b57a-9872453ec62c - 200 null application/json; charset=utf-8 35.7211ms
+2026-03-06 18:44:11.576 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:44:11.581 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:44:11.582 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:11.587 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:11.588 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 11.9774ms
+2026-03-06 18:44:11.590 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:11.591 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 9.7457ms
+2026-03-06 18:44:11.602 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:11.610 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:11.612 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:11.621 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:11.623 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 7.7649ms
+2026-03-06 18:44:11.626 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:11.625 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:11.628 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 38.1418ms
+2026-03-06 18:44:11.636 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:11.647 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:11.649 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:11.661 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:11.663 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 9.0065ms
+2026-03-06 18:44:11.666 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:11.668 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 42.8511ms
+2026-03-06 18:44:13.108 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:44:13.109 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:44:13.109 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:44:13.109 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:44:13.113 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:13.118 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:13.124 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:13.131 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:13.132 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 24.619ms
+2026-03-06 18:44:13.134 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 25.3047ms
+2026-03-06 18:44:13.134 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:13.136 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 26.9865ms
+2026-03-06 18:44:13.138 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:13.138 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 28.8964ms
+2026-03-06 18:44:13.156 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:13.172 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:13.183 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:13.184 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:13.187 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:13.189 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:13.199 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:13.201 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:13.202 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 9.7495ms
+2026-03-06 18:44:13.204 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:13.205 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 8.4263ms
+2026-03-06 18:44:13.216 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:13.208 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:13.213 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:13.207 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:13.218 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 79.9969ms
+2026-03-06 18:44:13.221 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 86.4005ms
+2026-03-06 18:44:13.223 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:13.231 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:13.247 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:13.249 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:13.257 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:13.261 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:13.265 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:13.266 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 12.0966ms
+2026-03-06 18:44:13.270 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 7.8656ms
+2026-03-06 18:44:13.274 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:13.276 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:13.278 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 74.5818ms
+2026-03-06 18:44:13.281 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 73.4789ms
+2026-03-06 18:44:21.285 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:44:21.286 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:44:21.290 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:21.295 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:21.298 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 13.1612ms
+2026-03-06 18:44:21.299 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 13.9635ms
+2026-03-06 18:44:21.300 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:21.318 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:21.319 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:21.321 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:21.330 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:21.333 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 7.7856ms
+2026-03-06 18:44:21.334 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:21.335 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:21.341 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:21.343 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 42.9594ms
+2026-03-06 18:44:21.344 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:21.353 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:21.362 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:21.365 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 8.7677ms
+2026-03-06 18:44:21.368 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:21.370 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 36.2589ms
+2026-03-06 18:44:21.914 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:44:21.915 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:44:21.920 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:21.925 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:21.927 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 12.4291ms
+2026-03-06 18:44:21.928 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 13.4732ms
+2026-03-06 18:44:21.928 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:21.946 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:21.948 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:21.950 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:21.957 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:21.960 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.8235ms
+2026-03-06 18:44:21.961 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:21.962 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:21.968 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:21.970 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 41.2614ms
+2026-03-06 18:44:21.971 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:21.980 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:21.987 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:21.990 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 6.205ms
+2026-03-06 18:44:21.993 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:21.995 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 33.9038ms
+2026-03-06 18:44:22.541 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:44:22.545 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:44:22.545 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:22.546 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:22.551 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:22.556 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:22.558 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 17.2829ms
+2026-03-06 18:44:22.560 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 14.7868ms
+2026-03-06 18:44:22.560 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:22.561 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:22.579 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:22.581 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:22.583 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:22.589 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:22.589 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:22.596 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 8.9231ms
+2026-03-06 18:44:22.597 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:22.597 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:22.598 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:22.601 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 8.4468ms
+2026-03-06 18:44:22.603 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:22.607 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:22.609 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 63.8718ms
+2026-03-06 18:44:22.612 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:22.619 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:22.621 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:22.631 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 71.2492ms
+2026-03-06 18:44:22.633 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:22.636 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:22.646 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:22.653 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:22.658 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 8.4198ms
+2026-03-06 18:44:22.661 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:22.661 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:22.665 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 10.1764ms
+2026-03-06 18:44:22.667 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 70.2548ms
+2026-03-06 18:44:22.671 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:22.682 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 78.9459ms
+2026-03-06 18:44:23.205 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:23.210 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:23.212 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:23.214 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:23.223 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:23.226 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 7.7878ms
+2026-03-06 18:44:23.227 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:23.229 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:23.234 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:23.236 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 31.603ms
+2026-03-06 18:44:23.238 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:23.247 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:23.255 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:23.258 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 7.2058ms
+2026-03-06 18:44:23.260 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:23.263 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 35.4261ms
+2026-03-06 18:44:23.927 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:23.927 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:23.933 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:23.939 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:23.940 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:23.942 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:23.944 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:23.947 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:23.956 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:23.956 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:23.959 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.0223ms
+2026-03-06 18:44:23.961 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:23.962 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 11.7228ms
+2026-03-06 18:44:23.963 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:23.965 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:23.970 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:23.973 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:23.978 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:23.980 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 52.9778ms
+2026-03-06 18:44:23.982 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:23.985 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 58.0459ms
+2026-03-06 18:44:23.987 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:23.996 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:24.006 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:24.013 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:24.018 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 8.1814ms
+2026-03-06 18:44:24.021 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:24.021 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:24.023 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 62.7374ms
+2026-03-06 18:44:24.027 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 12.5567ms
+2026-03-06 18:44:24.038 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:24.041 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 77.7821ms
+2026-03-06 18:44:24.493 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:24.499 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:24.501 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:24.503 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:24.520 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:24.523 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 15.6149ms
+2026-03-06 18:44:24.524 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:24.525 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:24.531 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:24.533 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 40.0538ms
+2026-03-06 18:44:24.535 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:24.544 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:24.552 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:24.555 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 7.7468ms
+2026-03-06 18:44:24.558 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:24.561 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 36.7832ms
+2026-03-06 18:44:25.246 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:25.252 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:25.254 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:25.256 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:25.263 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:25.266 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.6595ms
+2026-03-06 18:44:25.268 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:25.269 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:25.275 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:25.277 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 30.9132ms
+2026-03-06 18:44:25.279 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:25.288 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:25.295 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:25.298 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.6357ms
+2026-03-06 18:44:25.300 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:25.303 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 35.2813ms
+2026-03-06 18:44:26.291 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:26.296 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:26.298 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:26.300 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:26.308 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:26.311 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 7.379ms
+2026-03-06 18:44:26.313 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:26.314 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:26.319 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:26.322 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 30.8176ms
+2026-03-06 18:44:26.323 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:26.332 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:26.340 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:26.343 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 7.2198ms
+2026-03-06 18:44:26.346 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:26.348 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 35.1337ms
+2026-03-06 18:44:26.475 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:26.479 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:26.481 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:26.488 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:26.487 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:26.491 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:26.493 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:26.499 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:26.501 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:26.504 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:26.506 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 9.3841ms
+2026-03-06 18:44:26.507 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:26.509 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.9665ms
+2026-03-06 18:44:26.510 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:26.511 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:26.516 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:26.519 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:26.524 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:26.527 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 51.6043ms
+2026-03-06 18:44:26.528 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:26.531 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 51.9258ms
+2026-03-06 18:44:26.532 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:26.541 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:26.550 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:26.560 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:26.560 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:26.563 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 9.2283ms
+2026-03-06 18:44:26.566 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 8.4159ms
+2026-03-06 18:44:26.569 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:26.572 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:26.574 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 66.6253ms
+2026-03-06 18:44:26.576 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 66.3614ms
+2026-03-06 18:44:26.698 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:44:26.698 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:44:26.703 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:26.709 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:26.710 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 12.4904ms
+2026-03-06 18:44:26.712 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:26.712 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 13.674ms
+2026-03-06 18:44:26.724 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:26.732 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:26.734 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:26.742 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:26.745 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 7.1845ms
+2026-03-06 18:44:26.747 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:26.746 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:26.750 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 37.8028ms
+2026-03-06 18:44:26.757 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:26.767 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:26.770 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:26.780 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:26.783 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 8.7181ms
+2026-03-06 18:44:26.786 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:26.788 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 41.9847ms
+2026-03-06 18:44:27.132 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:27.135 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:44:27.136 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:44:27.137 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:27.143 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:27.148 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:27.150 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.152 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 16.3738ms
+2026-03-06 18:44:27.153 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:27.154 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 17.7715ms
+2026-03-06 18:44:27.156 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:27.169 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:27.181 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.184 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:27.184 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:27.191 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:27.192 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 12.9278ms
+2026-03-06 18:44:27.198 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.195 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.5517ms
+2026-03-06 18:44:27.196 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:27.194 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:27.200 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 67.9785ms
+2026-03-06 18:44:27.202 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.209 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:27.216 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:27.225 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 71.4521ms
+2026-03-06 18:44:27.226 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.229 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.238 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:27.241 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:27.247 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:27.253 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 8.1114ms
+2026-03-06 18:44:27.255 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:27.255 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.258 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 8.4027ms
+2026-03-06 18:44:27.260 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 63.5922ms
+2026-03-06 18:44:27.263 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.272 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 77.9646ms
+2026-03-06 18:44:27.434 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:27.440 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:27.442 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.444 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:27.450 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:27.453 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.2062ms
+2026-03-06 18:44:27.454 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:27.456 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.461 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:27.463 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 28.7427ms
+2026-03-06 18:44:27.465 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.473 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:27.479 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:27.482 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.2623ms
+2026-03-06 18:44:27.484 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:27.486 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 31.6665ms
+2026-03-06 18:44:27.964 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:27.969 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:27.971 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:27.973 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:27.981 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:27.984 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 6.8261ms
+2026-03-06 18:44:27.985 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:44:27.987 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:27.992 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:27.994 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 30.0491ms
+2026-03-06 18:44:27.996 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:28.004 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:44:28.012 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:44:28.015 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 7.4685ms
+2026-03-06 18:44:28.018 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:44:28.020 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 34.6536ms
+2026-03-06 18:44:28.418 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:44:28.419 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:44:28.420 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:28.424 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:28.429 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:28.434 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:28.436 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 17.5503ms
+2026-03-06 18:44:28.438 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 18.3799ms
+2026-03-06 18:44:28.438 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:28.439 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:28.458 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:28.460 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:28.462 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:28.467 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:28.468 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:28.474 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 8.4235ms
+2026-03-06 18:44:28.475 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:44:28.475 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:28.476 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:28.481 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:28.484 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 13.5746ms
+2026-03-06 18:44:28.486 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:28.486 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 66.8904ms
+2026-03-06 18:44:28.488 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:28.505 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:44:28.497 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:28.491 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:28.510 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:28.511 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:28.513 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 75.2137ms
+2026-03-06 18:44:28.515 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:28.518 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 9.5759ms
+2026-03-06 18:44:28.531 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:28.533 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 58.4598ms
+2026-03-06 18:44:28.533 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:28.542 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 13.6549ms
+2026-03-06 18:44:28.544 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:28.546 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 60.8319ms
+2026-03-06 18:44:43.177 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products/search?name=produto - null null
+2026-03-06 18:44:43.185 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:43.187 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.Search (Hypesoft.API)'
+2026-03-06 18:44:43.194 -03:00 [INF] Route matched with {action = "Search", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(System.String) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:43.221 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.ProductDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:43.225 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.Search (Hypesoft.API) in 25.9259ms
+2026-03-06 18:44:43.228 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.Search (Hypesoft.API)'
+2026-03-06 18:44:43.230 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products/search?name=produto - 200 null application/json; charset=utf-8 53.031ms
+2026-03-06 18:44:55.266 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products/6329493c-1c70-4ed7-91a6-431ef5aa9796 - null null
+2026-03-06 18:44:55.271 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:55.273 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products/6329493c-1c70-4ed7-91a6-431ef5aa9796 - 204 null null 7.2025ms
+2026-03-06 18:44:55.275 -03:00 [INF] Request starting HTTP/2 DELETE http://localhost:5000/api/products/6329493c-1c70-4ed7-91a6-431ef5aa9796 - null null
+2026-03-06 18:44:55.285 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:55.287 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.Delete (Hypesoft.API)'
+2026-03-06 18:44:55.293 -03:00 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Guid) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:55.367 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-03-06 18:44:55.370 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.Delete (Hypesoft.API) in 73.0337ms
+2026-03-06 18:44:55.372 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.Delete (Hypesoft.API)'
+2026-03-06 18:44:55.375 -03:00 [INF] Request finished HTTP/2 DELETE http://localhost:5000/api/products/6329493c-1c70-4ed7-91a6-431ef5aa9796 - 204 null null 100.1978ms
+2026-03-06 18:44:55.378 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:44:55.387 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:55.389 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 10.9143ms
+2026-03-06 18:44:55.390 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:44:55.400 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:44:55.403 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:55.405 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:44:55.413 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:44:55.416 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 7.4605ms
+2026-03-06 18:44:55.419 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:44:55.421 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 30.7709ms
+2026-03-06 18:45:31.842 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:45:31.848 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:31.851 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 8.8951ms
+2026-03-06 18:45:31.853 -03:00 [INF] Request starting HTTP/2 POST http://localhost:5000/api/products - application/json 157
+2026-03-06 18:45:31.865 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:31.867 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.Create (Hypesoft.API)'
+2026-03-06 18:45:31.874 -03:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Hypesoft.Application.Commands.Products.CreateProductCommand) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:45:31.936 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'Hypesoft.Application.DTOs.ProductDto'.
+2026-03-06 18:45:31.956 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.Create (Hypesoft.API) in 77.0856ms
+2026-03-06 18:45:31.959 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.Create (Hypesoft.API)'
+2026-03-06 18:45:31.961 -03:00 [INF] Request finished HTTP/2 POST http://localhost:5000/api/products - 201 null application/json; charset=utf-8 108.1396ms
+2026-03-06 18:45:31.965 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:45:31.976 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:31.978 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:45:31.981 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:45:31.994 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:45:31.996 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 10.0822ms
+2026-03-06 18:45:31.999 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:45:32.001 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 36.3038ms
+2026-03-06 18:45:34.159 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:45:34.162 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-06 18:45:34.165 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:34.170 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:34.172 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 12.2198ms
+2026-03-06 18:45:34.173 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 11.0946ms
+2026-03-06 18:45:34.173 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:45:34.191 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:34.193 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:45:34.195 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:45:34.203 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:45:34.206 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 7.2218ms
+2026-03-06 18:45:34.208 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-06 18:45:34.209 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:45:34.214 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:34.217 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 43.0769ms
+2026-03-06 18:45:34.218 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:45:34.227 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-06 18:45:34.236 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.DTOs.DashboardSummaryDto'.
+2026-03-06 18:45:34.239 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 7.9127ms
+2026-03-06 18:45:34.242 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-06 18:45:34.244 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/dashboard/summary - 200 null application/json; charset=utf-8 36.3665ms
+2026-03-06 18:45:35.927 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:45:35.929 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:45:35.929 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-06 18:45:35.932 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:35.937 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:35.942 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:35.944 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:45:35.946 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 17.1ms
+2026-03-06 18:45:35.947 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/categories - 204 null null 18.3179ms
+2026-03-06 18:45:35.948 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:45:35.950 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:45:35.968 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:35.973 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:45:35.976 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:45:35.976 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:45:35.981 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:45:35.982 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 10.8756ms
+2026-03-06 18:45:35.984 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:45:35.985 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.941ms
+2026-03-06 18:45:35.999 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:45:35.989 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:45:35.997 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:35.987 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/categories - application/json null
+2026-03-06 18:45:36.001 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 53.5873ms
+2026-03-06 18:45:36.004 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 77.1637ms
+2026-03-06 18:45:36.006 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:45:36.013 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:36.029 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:45:36.031 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:45:36.038 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-06 18:45:36.041 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:45:36.045 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.CategoryDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.CategoryDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:45:36.046 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 11.3913ms
+2026-03-06 18:45:36.049 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 5.7745ms
+2026-03-06 18:45:36.052 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:45:36.054 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-06 18:45:36.057 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 72.7559ms
+2026-03-06 18:45:36.059 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/categories - 200 null application/json; charset=utf-8 72.2055ms
+2026-03-06 18:45:41.201 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products/category/9441b4a5-f154-48ad-9325-c5f913b6f0ac - null null
+2026-03-06 18:45:41.209 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:45:41.211 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetByCategory (Hypesoft.API)'
+2026-03-06 18:45:41.218 -03:00 [INF] Route matched with {action = "GetByCategory", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByCategory(System.Guid) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:45:41.237 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Hypesoft.Infrastructure.Data.Documents.ProductDocument, Hypesoft.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:45:41.240 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetByCategory (Hypesoft.API) in 17.2023ms
+2026-03-06 18:45:41.244 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetByCategory (Hypesoft.API)'
+2026-03-06 18:45:41.246 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products/category/9441b4a5-f154-48ad-9325-c5f913b6f0ac - 200 null application/json; charset=utf-8 44.7422ms
+2026-03-06 18:50:43.463 -03:00 [INF] Request starting HTTP/2 OPTIONS http://localhost:5000/api/products - null null
+2026-03-06 18:50:43.470 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:50:43.472 -03:00 [INF] Request finished HTTP/2 OPTIONS http://localhost:5000/api/products - 204 null null 8.4278ms
+2026-03-06 18:50:43.474 -03:00 [INF] Request starting HTTP/2 GET http://localhost:5000/api/products - application/json null
+2026-03-06 18:50:43.485 -03:00 [INF] CORS policy execution successful.
+2026-03-06 18:50:43.487 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:50:43.490 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-06 18:50:43.501 -03:00 [INF] Executing OkObjectResult, writing value of type 'Hypesoft.Application.Common.PagedResult`1[[Hypesoft.Application.DTOs.ProductDto, Hypesoft.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-06 18:50:43.504 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 10.1316ms
+2026-03-06 18:50:43.507 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-06 18:50:43.510 -03:00 [INF] Request finished HTTP/2 GET http://localhost:5000/api/products - 200 null application/json; charset=utf-8 36.6175ms

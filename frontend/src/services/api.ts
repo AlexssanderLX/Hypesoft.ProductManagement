@@ -1,29 +1,21 @@
-const API_BASE_URL = "https://localhost:7251/api"
+const API_BASE = "http://localhost:5000/api"
 
-export async function apiFetch<T>(
+export async function apiFetch(
   endpoint: string,
   options: RequestInit = {}
-): Promise<T> {
+) {
 
-  const response = await fetch(`${API_BASE_URL}${endpoint}`, {
+  const res = await fetch(`${API_BASE}${endpoint}`, {
     headers: {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      ...(options.headers || {})
     },
     ...options
   })
 
-  if (!response.ok) {
-    const text = await response.text()
-    console.error("API ERROR:", text)
-    throw new Error(`API error: ${response.status}`)
+  if (!res.ok) {
+    throw new Error("API request failed")
   }
 
-  // evita erro quando API retorna 204
-  const text = await response.text()
-
-  if (!text) {
-    return {} as T
-  }
-
-  return JSON.parse(text)
+  return res.json()
 }

@@ -1,0 +1,431 @@
+2026-03-07 06:20:37.901 -03:00 [INF] Now listening on: http://localhost:5000
+2026-03-07 06:20:37.996 -03:00 [INF] Now listening on: http://localhost:5044
+2026-03-07 06:20:38.123 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-07 06:20:38.125 -03:00 [INF] Hosting environment: Development
+2026-03-07 06:20:38.127 -03:00 [INF] Content root path: C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API
+2026-03-07 06:23:03.930 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-07 06:23:03.930 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-07 06:23:03.985 -03:00 [WRN] Failed to determine the https port for redirect.
+2026-03-07 06:23:03.988 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:03.988 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:03.999 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 71.1674ms
+2026-03-07 06:23:03.999 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 71.1791ms
+2026-03-07 06:23:04.025 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-07 06:23:04.039 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:04.043 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-07 06:23:04.075 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-07 06:23:04.085 -03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-03-07 06:23:07.427 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/products - null null
+2026-03-07 06:23:07.430 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-07 06:23:07.430 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/products - null null
+2026-03-07 06:23:07.430 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/categories - null null
+2026-03-07 06:23:07.433 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:07.439 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:07.446 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:07.452 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:07.454 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/products - 204 null null 26.6057ms
+2026-03-07 06:23:07.455 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/categories - 204 null null 25.4532ms
+2026-03-07 06:23:07.457 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/products - 204 null null 27.1558ms
+2026-03-07 06:23:07.459 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/categories - 204 null null 28.7825ms
+2026-03-07 06:23:07.466 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/products - application/json null
+2026-03-07 06:23:07.473 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/categories - application/json null
+2026-03-07 06:23:07.492 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:07.497 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:07.498 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-07 06:23:07.500 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-07 06:23:07.509 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-07 06:23:07.515 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-07 06:23:09.185 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-07 06:23:09.186 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/dashboard/summary - null null
+2026-03-07 06:23:09.191 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:09.196 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:09.197 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 12.4851ms
+2026-03-07 06:23:09.199 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/dashboard/summary - 204 null null 13.1784ms
+2026-03-07 06:23:24.017 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-07 06:23:24.025 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:24.027 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-07 06:23:24.031 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-07 06:23:27.464 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/products - application/json null
+2026-03-07 06:23:27.464 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/categories - application/json null
+2026-03-07 06:23:27.470 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:27.476 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:27.477 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-07 06:23:27.479 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-07 06:23:27.483 -03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller Hypesoft.API.Controllers.ProductsController (Hypesoft.API).
+2026-03-07 06:23:27.485 -03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hypesoft.Application.DTOs.CategoryDto]]] GetAll() on controller Hypesoft.API.Controllers.CategoriesController (Hypesoft.API).
+2026-03-07 06:23:34.468 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 30384.0676ms
+2026-03-07 06:23:34.474 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-07 06:23:34.479 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TimeoutException: A timeout occurred after 30012ms selecting a server using CompositeServerSelector{ Selectors = ReadPreferenceServerSelector{ ReadPreference = { Mode : Primary } }, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/mongo:27017" }", EndPoint: "Unspecified/mongo:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Sockets.SocketException (0x00002AF9): Este host não é conhecido.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 activityOrDefault)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.ResolveEndPoints(EndPoint initial)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2026-03-07T09:23:31.8511001Z", LastUpdateTimestamp: "2026-03-07T09:23:31.8511018Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServerAsync(OperationContext operationContext, IServerSelector selector)
+   at MongoDB.Driver.Core.Clusters.IClusterExtensions.SelectServerAndPinIfNeededAsync(IClusterInternal cluster, OperationContext operationContext, ICoreSessionHandle session, IServerSelector selector, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Bindings.ReadPreferenceBinding.GetReadChannelSourceAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.AcquireOrReplaceChannelAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(OperationContext operationContext, IReadBinding binding, Boolean retryRequested)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Hypesoft.Infrastructure.Repositories.MongoProductRepository.GetAllAsync(Int32 page, Int32 pageSize) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Infrastructure\Repositories\MongoProductRepository.cs:line 48
+   at Hypesoft.Application.Queries.Dashboard.GetDashboardSummaryQueryHandler.Handle(GetDashboardSummaryQuery request, CancellationToken cancellationToken) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Application\Queries\Dashboard\GetDashboardSummaryQueryHandler.cs:line 26
+   at Hypesoft.API.Controllers.DashboardController.GetSummary() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Controllers\DashboardController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Program.cs:line 90
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-07 06:23:34.520 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/dashboard/summary - 500 null text/plain; charset=utf-8 30495.1536ms
+2026-03-07 06:23:34.527 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-07 06:23:34.533 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:34.535 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-07 06:23:34.537 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-07 06:23:37.523 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 30010.4455ms
+2026-03-07 06:23:37.529 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-07 06:23:37.534 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TimeoutException: A timeout occurred after 30003ms selecting a server using CompositeServerSelector{ Selectors = ReadPreferenceServerSelector{ ReadPreference = { Mode : Primary } }, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/mongo:27017" }", EndPoint: "Unspecified/mongo:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Sockets.SocketException (0x00002AF9): Este host não é conhecido.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 activityOrDefault)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.ResolveEndPoints(EndPoint initial)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2026-03-07T09:23:35.0690990Z", LastUpdateTimestamp: "2026-03-07T09:23:35.0691007Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServerAsync(OperationContext operationContext, IServerSelector selector)
+   at MongoDB.Driver.Core.Clusters.IClusterExtensions.SelectServerAndPinIfNeededAsync(IClusterInternal cluster, OperationContext operationContext, ICoreSessionHandle session, IServerSelector selector, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Bindings.ReadPreferenceBinding.GetReadChannelSourceAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.AcquireOrReplaceChannelAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(OperationContext operationContext, IReadBinding binding, Boolean retryRequested)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Hypesoft.Infrastructure.Repositories.MongoCategoryRepository.GetAllAsync() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Infrastructure\Repositories\MongoCategoryRepository.cs:line 44
+   at Hypesoft.API.Controllers.CategoriesController.GetAll() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Controllers\CategoryController.cs:line 33
+   at lambda_method18(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Program.cs:line 90
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-07 06:23:37.556 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 30037.7641ms
+2026-03-07 06:23:37.562 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/categories - 500 null text/plain; charset=utf-8 30089.2952ms
+2026-03-07 06:23:37.562 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-07 06:23:37.571 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/dashboard/summary - application/json null
+2026-03-07 06:23:37.574 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TimeoutException: A timeout occurred after 30008ms selecting a server using CompositeServerSelector{ Selectors = ReadPreferenceServerSelector{ ReadPreference = { Mode : Primary } }, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/mongo:27017" }", EndPoint: "Unspecified/mongo:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Sockets.SocketException (0x00002AF9): Este host não é conhecido.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 activityOrDefault)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.ResolveEndPoints(EndPoint initial)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2026-03-07T09:23:35.0690990Z", LastUpdateTimestamp: "2026-03-07T09:23:35.0691007Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServerAsync(OperationContext operationContext, IServerSelector selector)
+   at MongoDB.Driver.Core.Clusters.IClusterExtensions.SelectServerAndPinIfNeededAsync(IClusterInternal cluster, OperationContext operationContext, ICoreSessionHandle session, IServerSelector selector, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Bindings.ReadPreferenceBinding.GetReadChannelSourceAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.AcquireOrReplaceChannelAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(OperationContext operationContext, IReadBinding binding, Boolean retryRequested)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.Core.Operations.CountDocumentsOperation.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.CountDocumentsAsync(FilterDefinition`1 filter, CountOptions options, CancellationToken cancellationToken)
+   at Hypesoft.Infrastructure.Repositories.MongoProductRepository.GetPagedAsync(Int32 page, Int32 pageSize) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Infrastructure\Repositories\MongoProductRepository.cs:line 71
+   at Hypesoft.Application.Queries.Products.GetProductsQueryHandler.Handle(GetProductsQuery request, CancellationToken cancellationToken) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Application\Queries\Products\GetProductsQueryHandler.cs:line 22
+   at Hypesoft.API.Controllers.ProductsController.GetAll(Int32 page, Int32 pageSize) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Controllers\ProductController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Program.cs:line 90
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-07 06:23:37.580 -03:00 [INF] CORS policy execution successful.
+2026-03-07 06:23:37.608 -03:00 [INF] Executing endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-07 06:23:37.608 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/products - 500 null text/plain; charset=utf-8 30142.2159ms
+2026-03-07 06:23:37.610 -03:00 [INF] Route matched with {action = "GetSummary", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSummary() on controller Hypesoft.API.Controllers.DashboardController (Hypesoft.API).
+2026-03-07 06:23:54.052 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 30016.3873ms
+2026-03-07 06:23:54.057 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-07 06:23:54.061 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TimeoutException: A timeout occurred after 30013ms selecting a server using CompositeServerSelector{ Selectors = ReadPreferenceServerSelector{ ReadPreference = { Mode : Primary } }, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/mongo:27017" }", EndPoint: "Unspecified/mongo:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Sockets.SocketException (0x00002AF9): Este host não é conhecido.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 activityOrDefault)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.ResolveEndPoints(EndPoint initial)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2026-03-07T09:23:52.0073318Z", LastUpdateTimestamp: "2026-03-07T09:23:52.0073359Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServerAsync(OperationContext operationContext, IServerSelector selector)
+   at MongoDB.Driver.Core.Clusters.IClusterExtensions.SelectServerAndPinIfNeededAsync(IClusterInternal cluster, OperationContext operationContext, ICoreSessionHandle session, IServerSelector selector, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Bindings.ReadPreferenceBinding.GetReadChannelSourceAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.AcquireOrReplaceChannelAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(OperationContext operationContext, IReadBinding binding, Boolean retryRequested)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Hypesoft.Infrastructure.Repositories.MongoProductRepository.GetAllAsync(Int32 page, Int32 pageSize) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Infrastructure\Repositories\MongoProductRepository.cs:line 48
+   at Hypesoft.Application.Queries.Dashboard.GetDashboardSummaryQueryHandler.Handle(GetDashboardSummaryQuery request, CancellationToken cancellationToken) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Application\Queries\Dashboard\GetDashboardSummaryQueryHandler.cs:line 26
+   at Hypesoft.API.Controllers.DashboardController.GetSummary() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Controllers\DashboardController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Program.cs:line 90
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-07 06:23:54.084 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/dashboard/summary - 500 null text/plain; charset=utf-8 30066.7379ms
+2026-03-07 06:23:57.501 -03:00 [INF] Executed action Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API) in 30011.3648ms
+2026-03-07 06:23:57.501 -03:00 [INF] Executed action Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API) in 30007.3189ms
+2026-03-07 06:23:57.505 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.ProductsController.GetAll (Hypesoft.API)'
+2026-03-07 06:23:57.509 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.CategoriesController.GetAll (Hypesoft.API)'
+2026-03-07 06:23:57.512 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TimeoutException: A timeout occurred after 30009ms selecting a server using CompositeServerSelector{ Selectors = ReadPreferenceServerSelector{ ReadPreference = { Mode : Primary } }, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/mongo:27017" }", EndPoint: "Unspecified/mongo:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Sockets.SocketException (0x00002AF9): Este host não é conhecido.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 activityOrDefault)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.ResolveEndPoints(EndPoint initial)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2026-03-07T09:23:55.2225310Z", LastUpdateTimestamp: "2026-03-07T09:23:55.2225328Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServerAsync(OperationContext operationContext, IServerSelector selector)
+   at MongoDB.Driver.Core.Clusters.IClusterExtensions.SelectServerAndPinIfNeededAsync(IClusterInternal cluster, OperationContext operationContext, ICoreSessionHandle session, IServerSelector selector, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Bindings.ReadPreferenceBinding.GetReadChannelSourceAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.AcquireOrReplaceChannelAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(OperationContext operationContext, IReadBinding binding, Boolean retryRequested)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.Core.Operations.CountDocumentsOperation.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.CountDocumentsAsync(FilterDefinition`1 filter, CountOptions options, CancellationToken cancellationToken)
+   at Hypesoft.Infrastructure.Repositories.MongoProductRepository.GetPagedAsync(Int32 page, Int32 pageSize) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Infrastructure\Repositories\MongoProductRepository.cs:line 71
+   at Hypesoft.Application.Queries.Products.GetProductsQueryHandler.Handle(GetProductsQuery request, CancellationToken cancellationToken) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Application\Queries\Products\GetProductsQueryHandler.cs:line 22
+   at Hypesoft.API.Controllers.ProductsController.GetAll(Int32 page, Int32 pageSize) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Controllers\ProductController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Program.cs:line 90
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-07 06:23:57.516 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TimeoutException: A timeout occurred after 30006ms selecting a server using CompositeServerSelector{ Selectors = ReadPreferenceServerSelector{ ReadPreference = { Mode : Primary } }, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/mongo:27017" }", EndPoint: "Unspecified/mongo:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Sockets.SocketException (0x00002AF9): Este host não é conhecido.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 activityOrDefault)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.ResolveEndPoints(EndPoint initial)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2026-03-07T09:23:55.2225310Z", LastUpdateTimestamp: "2026-03-07T09:23:55.2225328Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServerAsync(OperationContext operationContext, IServerSelector selector)
+   at MongoDB.Driver.Core.Clusters.IClusterExtensions.SelectServerAndPinIfNeededAsync(IClusterInternal cluster, OperationContext operationContext, ICoreSessionHandle session, IServerSelector selector, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Bindings.ReadPreferenceBinding.GetReadChannelSourceAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.AcquireOrReplaceChannelAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(OperationContext operationContext, IReadBinding binding, Boolean retryRequested)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Hypesoft.Infrastructure.Repositories.MongoCategoryRepository.GetAllAsync() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Infrastructure\Repositories\MongoCategoryRepository.cs:line 44
+   at Hypesoft.API.Controllers.CategoriesController.GetAll() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Controllers\CategoryController.cs:line 33
+   at lambda_method18(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Program.cs:line 90
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-07 06:23:57.547 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/products - 500 null text/plain; charset=utf-8 30083.2409ms
+2026-03-07 06:23:57.573 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/categories - 500 null text/plain; charset=utf-8 30109.2011ms
+2026-03-07 06:24:04.559 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 30016.898ms
+2026-03-07 06:24:04.561 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-07 06:24:04.565 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TimeoutException: A timeout occurred after 30012ms selecting a server using CompositeServerSelector{ Selectors = ReadPreferenceServerSelector{ ReadPreference = { Mode : Primary } }, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/mongo:27017" }", EndPoint: "Unspecified/mongo:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Sockets.SocketException (0x00002AF9): Este host não é conhecido.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 activityOrDefault)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.ResolveEndPoints(EndPoint initial)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2026-03-07T09:24:01.6472893Z", LastUpdateTimestamp: "2026-03-07T09:24:01.6472911Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServerAsync(OperationContext operationContext, IServerSelector selector)
+   at MongoDB.Driver.Core.Clusters.IClusterExtensions.SelectServerAndPinIfNeededAsync(IClusterInternal cluster, OperationContext operationContext, ICoreSessionHandle session, IServerSelector selector, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Bindings.ReadPreferenceBinding.GetReadChannelSourceAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.AcquireOrReplaceChannelAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(OperationContext operationContext, IReadBinding binding, Boolean retryRequested)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Hypesoft.Infrastructure.Repositories.MongoProductRepository.GetAllAsync(Int32 page, Int32 pageSize) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Infrastructure\Repositories\MongoProductRepository.cs:line 48
+   at Hypesoft.Application.Queries.Dashboard.GetDashboardSummaryQueryHandler.Handle(GetDashboardSummaryQuery request, CancellationToken cancellationToken) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Application\Queries\Dashboard\GetDashboardSummaryQueryHandler.cs:line 26
+   at Hypesoft.API.Controllers.DashboardController.GetSummary() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Controllers\DashboardController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Program.cs:line 90
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-07 06:24:04.586 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/dashboard/summary - 500 null text/plain; charset=utf-8 30058.2876ms
+2026-03-07 06:24:07.629 -03:00 [INF] Executed action Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API) in 30007.3741ms
+2026-03-07 06:24:07.632 -03:00 [INF] Executed endpoint 'Hypesoft.API.Controllers.DashboardController.GetSummary (Hypesoft.API)'
+2026-03-07 06:24:07.635 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TimeoutException: A timeout occurred after 30006ms selecting a server using CompositeServerSelector{ Selectors = ReadPreferenceServerSelector{ ReadPreference = { Mode : Primary } }, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/mongo:27017" }", EndPoint: "Unspecified/mongo:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Sockets.SocketException (0x00002AF9): Este host não é conhecido.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 activityOrDefault)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.ResolveEndPoints(EndPoint initial)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(OperationContext operationContext)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(OperationContext operationContext)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2026-03-07T09:24:04.8515787Z", LastUpdateTimestamp: "2026-03-07T09:24:04.8515795Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServerAsync(OperationContext operationContext, IServerSelector selector)
+   at MongoDB.Driver.Core.Clusters.IClusterExtensions.SelectServerAndPinIfNeededAsync(IClusterInternal cluster, OperationContext operationContext, ICoreSessionHandle session, IServerSelector selector, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Bindings.ReadPreferenceBinding.GetReadChannelSourceAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.AcquireOrReplaceChannelAsync(OperationContext operationContext, IReadOnlyCollection`1 deprioritizedServers)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(OperationContext operationContext, IReadBinding binding, Boolean retryRequested)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(OperationContext operationContext, IReadBinding binding)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](OperationContext operationContext, IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, Boolean allowChannelPinning)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference explicitReadPreference, Nullable`1 timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Hypesoft.Infrastructure.Repositories.MongoProductRepository.GetAllAsync(Int32 page, Int32 pageSize) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Infrastructure\Repositories\MongoProductRepository.cs:line 48
+   at Hypesoft.Application.Queries.Dashboard.GetDashboardSummaryQueryHandler.Handle(GetDashboardSummaryQuery request, CancellationToken cancellationToken) in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.Application\Queries\Dashboard\GetDashboardSummaryQueryHandler.cs:line 26
+   at Hypesoft.API.Controllers.DashboardController.GetSummary() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Controllers\DashboardController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\Alexssander\Desktop\Programação\Hypesoft.ProductManagement\backend\Hypesoft.API\Program.cs:line 90
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-07 06:24:07.654 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/dashboard/summary - 500 null text/plain; charset=utf-8 30082.9242ms
